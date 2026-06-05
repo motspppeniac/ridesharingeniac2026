@@ -2,10 +2,12 @@
 
 This repository contains the implementation, benchmark instances, and experimental data for the paper:  
 
-> **""**  
+> **"Meta-Learning-Based Algorithm Selection for Multi-Objective Ridesharing-Inspired Optimization"**  
 
 ## 📄 Abstract  
-Ridesharing 
+Algorithm selection aims to identify the most suitable optimizer for a given instance, but remains challenging in multi-objective combinatorial op timization because performance depends on Pareto set characteristics. This paper investigates meta-learning for algorithm selection in a three-objective ridesharing-inspired problem integrating route planning, passenger assignment, and reward collection. We use this problem as a structured testbed derived from the Traveling Salesman Problem. We compare static, Pareto-based landscape, and combined meta-feature representations using 252 synthetic instances and three multi-objective evolutionary algorithms: MOEA/D, SPEA2, and IBEA. A multi-output Random Forest model is trained to predict algorithm performance
+under HV and IGD indicators. Results show that static features are highly informative, while Pareto-based landscape features alone provide limited pre- dictive power. Combined features consistently outperform the single-algorithm baseline, but the marginal gain over static-only meta-features is limited and indicator-dependent.
+
 
 ## 📂 Repository Structure  
 ```
